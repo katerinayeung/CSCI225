@@ -30,6 +30,7 @@
         <ol>
             <li> <a href="doc/Assignment1.pdf">Assignment 1</a></li>
             <li> <a href="https://katerinayeung.github.io/CSCI225/"> Assignment 0 </a></li>
+            <li> <a href="doc/ContactMe.html"></a>Contact Me</li>
         </ol>
 
     </div>
@@ -195,6 +196,61 @@
          </footer>
 
     </div>
+
+
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/s53b0cEEO6s">
+    </iframe>
+
+    <form action="Feedback">
+       <h1>Feedback</h1> 
+       <p>
+        First name: <input type="anonymous" name="fname" required>
+       </p> 
+       <p>
+        Last name: <input type="anonymous" name="lrame" required>
+       </p> 
+       <p>
+        Email*: <input type="email" name="mail" placeholder="name@domain.com" required>
+       </p>
+
+       <label> Age <input type="text" name="age"></label>
+
+       <p>Would you recommend this website?</p>
+       <p><input type="radio" name="recommend" value="yes">Yes</p>
+       <p><input type="radio" name="recommend" value="no">No</p>
+       
+       <p>
+        What's your favorite website?
+			<select name="website" size="1">
+				<option value="google">Google</option>
+				<option value="facebook">Facebook</option>
+				<option value="instagram">Instagram</option>
+				<option value="twitter">Twitter</option>
+			</select>
+       </p>
+
+       <p>
+        Rate the website
+        <input type="range" name="rating" min="0" max="10">
+       </p>
+
+       <p>
+         Additional Comments: 
+         <br>
+        <textarea name="comment" rows="15" cols="50"></textarea>
+       </p>
+
+       <p><input type="date" name="date"></p>
+
+       <p><input type="reset" value="Reset"> </p>
+       
+       <p><input type="submit" value="Submit Feedback"> </p>
+
+
+    </form>
+
+
+    
 
 </body>
 </html>
