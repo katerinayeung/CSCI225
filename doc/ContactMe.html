@@ -1,0 +1,48 @@
+<form action="Feedback">
+    <h1>Feedback</h1> 
+    <p>
+     First name: <input type="anonymous" name="fname" required>
+    </p> 
+    <p>
+     Last name: <input type="anonymous" name="lrame" required>
+    </p> 
+    <p>
+     Email*: <input type="email" name="mail" placeholder="name@domain.com" required>
+    </p>
+
+    <label> Age <input type="text" name="age"></label>
+
+    <p>Would you recommend this website?</p>
+    <p><input type="radio" name="recommend" value="yes">Yes</p>
+    <p><input type="radio" name="recommend" value="no">No</p>
+    
+    <p>
+     What's your favorite website?
+         <select name="website" size="1">
+             <option value="google">Google</option>
+             <option value="facebook">Facebook</option>
+             <option value="instagram">Instagram</option>
+             <option value="twitter">Twitter</option>
+         </select>
+    </p>
+
+    <p>
+     Rate the website
+     <input type="range" name="rating" min="0" max="10">
+    </p>
+
+    <p>
+      Additional Comments: 
+      <br>
+     <textarea name="comment" rows="15" cols="50"></textarea>
+    </p>
+
+    <p><input type="date" name="date"></p>
+    <br>
+    <p><input type="reset" value="Reset"> </p>
+    <br>
+    
+    <p><input type="submit" value="Submit Feedback"> </p>
+
+
+ </form>
