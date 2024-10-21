@@ -1,0 +1,175 @@
+
+/*Layout*/
+
+/*Navigation Bar Section*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0d1c4e;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 10x;
+    background-color: #333; /* Background color for the navigation item */
+    border-radius: 5px; /* Rounded corners with 10px radius */
+    margin-left: 5px; /* Adds space between the navigation items */
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block; 
+}
+
+
+
+
+
+/* Introduction section */
+.Introduction {
+    position: fixed;
+    top: 10px;
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.Introduction p {
+    float: left;
+    width: 60%;
+}
+
+/* Image in the introduction section */
+.oregonimg {
+    float: right;
+    padding: 20px;
+}
+
+/*Assignment*/
+.Assignment {
+    position: absolute;
+    top: 47%;
+    right: 0;
+    width: 25%;
+    bottom: 30%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/*footer*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#Portfolio p:first-of-type {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Creates a shadow effect */
+    padding: 10px; /* Adds padding inside the paragraph to space it nicely */
+    background-color: #fff;
+}
+
+p{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:darkgoldenrod;
+}
+
+p::first-letter{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+li{
+    color:darkolivegreen;
+    font-weight: 200;
+    list-style-image: url(..img/cloud-shape.png);
+    padding-left: 20px;
+    
+}
+
+h1{
+    font-family: "Bodoni Moda SC",sans-serif;
+    font-weight: 100;
+    letter-spacing: normal;
+    
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+    border: 3px solid #333;
+    border-radius: 10px; 
+    padding: 5px; /
+}
+
+a {
+    color: #0d1c4e;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    color:slategray;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(../img/cream-background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    z-index: -1;
+}
+
+div.Schedule,div.ContactInformation,div.Portfolio {
+    border-right: 3px solid #fff; 
+    border-bottom: 3px solid #fff; 
+    padding: 20px; 
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    border: 3px#fff;
+    padding: 2px;
+    vertical-align: auto;
+    empty-cells:show;
+}
+
+h1 {
+    opacity: 0.5; 
+    transition: all 2s ease-in-out; 
+}
+
+
+h1:hover {
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
