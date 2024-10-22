@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col">
                     <div class="navbar navbar-expand-lg navbar-light bg-dark">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav fw-bold">
                             <li class="nav-item"><a class="nav-link text-light" href="https://www.usca.edu/">USCA Homepage</a> </li>
                             <li class="nav-item"><a class="nav-link text-light" href="https://blackboard.sc.edu/">Blackboard</a></li>
                             <li class="nav-item"><a class="nav-link text-light" href="#AssignmentSec"> Assignment Information Section</a> </li>
@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col">
                     <h1 class="d-none"> Watch This Video:</h1>
-                    <iframe class="mt-3"width="420" height="345" src="https://www.youtube.com/embed/s53b0cEEO6s">
+                    <iframe class="rounded-4 mt-3"width="500" height="345" src="https://www.youtube.com/embed/s53b0cEEO6s">
                     </iframe>
                 </div>
             
@@ -53,10 +53,13 @@
                             <input class="form-control" type="email" name="mail" placeholder="name@domain.com" required>
                         </div>
 
-                        <label> Age <input type="text" name="age"></label>
+                        <div class="form-floating mb-2">
+                        <label class="form-label" for="age">Age</label>
+                        <input class="form-control" type="text" name="age">
+                        </div>
 
                         <p>Would you recommend this website?</p>
-                        <div class="form-check">
+                        <div class="form-check mb-2">
                             <input type="radio" name="recommend" value="yes">
                             <label class="form-check-label" for="yes"> Yes</label><br>
                             <input type="radio" name="recommend" value="no">
@@ -64,8 +67,8 @@
                         </div>
 
                         <p>What's your favorite website?</p>
-                        <div class="form-floating">
-                            <select class="form-select form-select-sm" size="2" aria-label="Website">
+                        <div class="form-floating mb-3">
+                            <select class="form-select form-select-sm" size="3" aria-label="Website">
                                 <option selected>Open this select menu</option>
                                 <option value="google">Google</option>
                                 <option value="facebook">Facebook</option>
@@ -74,22 +77,24 @@
                             </select>
                         </div>
 
-                        <div>
-                            <label for="ratingrange" class="form-label">Rate the website</label>
+                        <div class="form-group mb-3" >
+                            <label for="ratingrange" class="form-label ">Rate the website</label>
                             <input type="range" class="form-range" id="ratingrange" min="0" max="10">
                         </div>
 
-                        <div class="form-floating">
+                        <div class="form-floating mb-3">
                             <textarea class="form-control" placeholder="Leave a comment here" id="commentTextarea" style="height: 100px"></textarea>
                             <label for="commentTextarea2">Additonal Comments:</label>
                         </div>
 
-                        <p><input type="date" name="date"></p>
-                        <br>
-                        <p><input type="reset" value="Reset"> </p>
-                            <br>
+                        <div class="form-group mb-3">
+                            <label for="date">Select a date:</label>
+                            <input type="date" class="form-control" id="date" name="date">
+                        </div>
 
-                        <p><input type="submit" value="Submit Feedback"> </p>
+                        <input class="btn btn-primary" type="reset" value="Reset"> 
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                         
 
                     </form>
                 </div>

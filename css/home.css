@@ -6,9 +6,9 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #0d1c4e;
+    background-color: #a6dbff;
     overflow: hidden;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .navbar ul {
@@ -21,7 +21,7 @@
     padding: 10x;
     background-color: #333; /* Background color for the navigation item */
     border-radius: 5px; /* Rounded corners with 10px radius */
-    margin-left: 5px; /* Adds space between the navigation items */
+    margin-left: 10px; /* Adds space between the navigation items */
 }
 
 .navbar ul li a {
@@ -36,21 +36,24 @@
 
 /* Introduction section */
 .Introduction {
+    background-color: rgb(222, 241, 221);
     position: fixed;
-    top: 10px;
-    width: 50%;
+    top: 30px;
+    width: 60%;
     float: left;
     padding: 20px;
+    z-index: 1000;
 }
 
 .Introduction p {
     float: left;
-    width: 60%;
+    width: 90%;
 }
 
 /* Image in the introduction section */
 .oregonimg {
     float: right;
+    width: 30%;
     padding: 20px;
 }
 
@@ -72,7 +75,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #a6dbff;
     color: white;
     text-align: center;
     padding: 10px;
@@ -89,7 +92,7 @@ p{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color:darkgoldenrod;
+  color:#353531;
 }
 
 p::first-letter{
@@ -138,22 +141,35 @@ body{
     z-index: -1;
 }
 
-div.Schedule,div.ContactInformation,div.Portfolio {
+#Portfolio, .ContactInformation, .Schedule {
     border-right: 3px solid #fff; 
     border-bottom: 3px solid #fff; 
-    padding: 20px; 
+    padding: 5px;  /* Keeps the sections in normal document flow */
 }
+
+#Portfolio{
+    margin-top: 15%;
+}
+
+
+
 
 table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
 table {
-    border: 3px#fff;
-    padding: 2px;
-    vertical-align: auto;
-    empty-cells:show;
+    border-collapse: collapse; /* Collapses borders into a single line */
+    width: 100%;
+    empty-cells: show; /* Show borders for empty cells */
 }
+
+td, th {
+    border: 3px solid rgb(255, 255, 255); /* Add a border to cells */
+    padding: 8px; /* Space between content and border */
+    vertical-align: middle; /* Center content vertically */
+}
+
 
 h1 {
     opacity: 0.5; 
