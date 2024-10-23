@@ -42,11 +42,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:white;
+    background-color:blanchedalmond;
     border: 2px dashed #333;
     color: rgb(23, 12, 12);
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 p{
