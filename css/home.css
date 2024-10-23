@@ -160,15 +160,66 @@ div.contact p{
 
 
 
-div.introduction, div.assignment, div.portfolio, div.schedule, div.contact{
+div.introduction{
+    background-color: #fff;
+    border-right: 3px solid #fff; 
+    border-bottom: 3px solid #fff; 
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    top:20%;
+    left: 30%;
+    padding:2px;
+    visibility: hidden;
+
+}
+div.assignment{
+    background-color: #fff;
+    border-right: 3px solid #fff; 
+    border-bottom: 3px solid #fff; 
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top:40%;
+    left: 40%;
+    padding:2px;
+    visibility: hidden;
+}
+div.portfolio{
     background-color: #fff;
     border-right: 3px solid #fff; 
     border-bottom: 3px solid #fff; 
     position: absolute;
     height: 40%;
-    width: 20%;
-    top:40%;
+    width: 30%;
+    top:20%;
+    left: 35%;
+    padding:2px;
+    visibility: hidden;
+
+}
+div.schedule{
+    background-color: #fff;
+    border-right: 3px solid #fff; 
+    border-bottom: 3px solid #fff; 
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top:5%;
     left: 30%;
+    padding:2px;
+    visibility: hidden;
+
+}
+div.contact{
+    background-color: #fff;
+    border-right: 3px solid #fff; 
+    border-bottom: 3px solid #fff; 
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    bottom:30%;
+    left: 40%;
     padding:2px;
     visibility: hidden;
 
